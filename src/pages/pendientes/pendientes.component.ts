@@ -1,3 +1,4 @@
+import { ListaDeseosService } from '../../app/services/lista-deseos.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: 'pendientes.component.html',
 })
 export class PendientesComponent implements OnInit {
-  constructor() {  }
+  constructor(private _listaDeseos: ListaDeseosService) {  }
 
   ngOnInit() {
     console.log('init pendientes');
