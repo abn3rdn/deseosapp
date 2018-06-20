@@ -7,5 +7,7 @@ import { Component, OnInit } from '@angular/core';
 export class PendientesComponent implements OnInit {
   constructor() {  }
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log('init pendientes');
+  }
 }
