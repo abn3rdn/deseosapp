@@ -8,7 +8,7 @@ export class ListaDeseosService {
 
     constructor() {
 
-        let lista1  = new Lista('Compras de supermercado');
+        let lista1  = new Lista('Compras del super');
         let lista2  = new Lista('Juegos que deseo');
         let lista3  = new Lista('Cosas de la universidad');
 
